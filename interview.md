@@ -1,0 +1,15 @@
+- what is react
+- why react and why not other library or framework
+- how jsx is helping
+- what is virtualDom ,how is it work , how it will identify what to render
+- what are props and state
+- how can we use state in functional components
+- what is hooks
+- life cycle phases of components
+- why we are using constructors , super keywords
+- feature of react
+- did browser read a jsx file directly
+- why is react widely used
+- disadvantage of react
+- use of arrow function in react
+- higher order component in react
