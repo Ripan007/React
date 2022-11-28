@@ -40,4 +40,35 @@
 
 - takes a component and return a component
 - it is a pure function
--
+
+---
+
+## _classComponent:_
+
+- necessary thing to create a class component
+  - render method is a required method
+  - extends component from react
+  - render method should also return something
+
+-phases of life cycle of component:
+
+- 1> creation phase /mounting phase
+  - component get created for the first time
+- 2> updation phase
+  - component get updated , using setState function , calling setState, by updating value in content which is being used , by updating a state and props
+- 3> removal phase / deletion phase / unmounting phases
+
+---
+
+- Method of class components
+  - method in phase 1
+    - constructor : it called and initialize property
+    - super: connecting to parent class, create hierarchy,pass reference to parent ,
+  - if we have to access props then we have to use constructor
+  - initilize of state => possible only inside constructor
+
+---
+
+- how this keyword works:
+  - in normal function this keyword point to caller function
+  - points to environmnent
