@@ -46,11 +46,12 @@
 ## _classComponent:_
 
 - necessary thing to create a class component
+
   - render method is a required method
   - extends component from react
   - render method should also return something
 
--phases of life cycle of component:
+- phases of life cycle of component:
 
 - 1> creation phase /mounting phase
   - component get created for the first time
@@ -60,15 +61,48 @@
 
 ---
 
-- Method of class components
-  - method in phase 1
-    - constructor : it called and initialize property
-    - super: connecting to parent class, create hierarchy,pass reference to parent ,
-  - if we have to access props then we have to use constructor
-  - initilize of state => possible only inside constructor
+- Method of class components:
 
 ---
 
+_mounting phase has 4 method:_
+
+- constructor => get called ones only(refresh)
+- getDerivedStateFromProps => when your state is based on previous state then it comes into play
+- render
+- componentDidMount
+
+---
+
+- constructor : it called and initialize property
+- super: connecting to parent class, create hierarchy,pass reference to parent ,
+- if we have to access props then we have to use constructor
+- initilize of state => possible only inside constructor
+
+---
+
+- _second phase (updation phase method) has 5 method:_
+
+  - getDerivedStateFromProps
+  - shouldComponentUpdate
+  - render
+  - getSnapshotBeforeUpdate
+  - componentUpdate
+
+  ***
+
+- _deletion or unmounting phase:_
+  - componentWillUnmount
+
+---
+
+- _used cases(able to perform)/not able to perform:_
+  - constructor:
+    - get allow to props and call to super
+    - runs when component gets created fo the first time
+    - initialize the state of the component
+    - binding of the event handlers
+    - not able to do : side effects not possible (async not possible)
 - how this keyword works:
   - in normal function this keyword point to caller function
   - points to environmnent
