@@ -13,3 +13,13 @@
 - disadvantage of react
 - use of arrow function in react
 - higher order component in react
+- what are pure components
+- pass data from child to parents (ans:callBack)
+- context api ? uses of context api
+- what did you mean by three dots in react(ans:spread operator)
+- control and uncontrolled components in react
+- create a todolist , add functionality to delete the list
+- concat two arrays using three dot method
+- work of shouldcomponentupdate() method
+- diff b/w class based components and functional components
+- diff b/w virtual dom / realdom
